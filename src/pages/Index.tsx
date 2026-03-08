@@ -139,5 +139,4 @@ const Index = () => {
 
 export default Index;
 
-x;
 
