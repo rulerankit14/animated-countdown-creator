@@ -69,7 +69,7 @@ const Index = () => {
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-12 text-center">
         {/* Logo */}
         <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary/80 text-3xl shadow-lg shadow-primary/30">
-          💪
+          💜
         </div>
 
         {/* Title */}
