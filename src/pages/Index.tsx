@@ -38,9 +38,12 @@ const Index = () => {
     <div className="relative min-h-screen overflow-hidden bg-background">
       {/* Background image with overlay */}
       <div className="absolute inset-0">
-        <img
+        <video
           src={gymHero}
-          alt="Gym workout"
+          autoPlay
+          loop
+          muted
+          playsInline
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/95" />
