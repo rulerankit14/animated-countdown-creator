@@ -48,15 +48,16 @@ const Index = () => {
 
       {/* Animated floating emojis */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        {["💪", "🔥", "💧", "🏋️", "⚡"].map((emoji, i) => (
+      {["🥵", "💦", "💋", "🥵", "💦", "💋"].map((emoji, i) => (
           <span
             key={i}
-            className="absolute animate-bounce text-3xl"
+            className="absolute text-3xl animate-[float_8s_ease-in-out_infinite]"
             style={{
-              left: `${15 + i * 18}%`,
-              top: `${10 + (i % 3) * 25}%`,
-              animationDelay: `${i * 0.4}s`,
-              animationDuration: `${2 + i * 0.3}s`,
+              left: `${10 + i * 16}%`,
+              top: `${15 + (i % 3) * 25}%`,
+              animationDelay: `${i * 1.2}s`,
+              animationDuration: `${6 + i * 1.5}s`,
+              opacity: 0.7,
             }}
           >
             {emoji}
