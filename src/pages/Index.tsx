@@ -31,7 +31,9 @@ const Index = () => {
     const link = document.createElement("a");
     link.href = DOWNLOAD_URL;
     link.download = "sexychat.apk";
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   }, []);
 
   return (
